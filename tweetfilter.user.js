@@ -3987,7 +3987,7 @@ var TweetfilterScript = function() {
       '#tf ul.tf-filters > li.invert { border-right:0; min-width:48px; }',
       '#tf ul.tf-filters > li.filter { float:right; }',
       '#tf ul.tf-filters a[data-option] { color: @link; text-transform:lowercase; display:block; text-decoration:none !important; '+this.css3rounded('2px')+' }',
-      '#tf ul.tf-filters a[data-option] > i { font-style:normal; color:@darktext; font-size:11px; display:block; text-align:center; }',
+      '#tf ul.tf-filters a[data-option] > i { font-style:normal; color:@darktext; font-size:11px; display:block; text-align:center; background-image: none; }',
       '#tf ul.tf-filters a[data-option] > b { font-size:11px; display:block; text-align:center; color:@link; }',
       '#tf ul.tf-filters a.checked[data-option] { background: #f5f5f5; text-decoration: none; }',
       '#tf ul.tf-filters a.checked[data-option] > i { color:@lighttext; text-decoration:line-through; }',

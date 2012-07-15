@@ -1918,7 +1918,7 @@ var TweetfilterScript = function() {
               if (htmltext.indexOf("\n") > -1) {
                 tweettext.html(htmltext.replace(/\n/g, ' <br />')); //insert line breaks
               }
-              tweet.ismedia = $("span.icons span.media", item).length > 0;
+              tweet.ismedia = $("span.details-icon > i", item).length > 0;
               if (tweet.ismedia) {
                 li = this.cs.filter.links.indexOf(tweet.id);
                 if (li > -1) {

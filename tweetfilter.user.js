@@ -55,7 +55,7 @@ var TweetfilterScript = function() {
     var pagemap = { //pagename => route.name
       'Home': ['index', 'home', 'yourActivity', 'activity', 'mentions', 'replies', 'retweets', 'retweetsByOthers', 'retweetsOfMine', 'listInHome', 'savedSearch'],
       'SearchHome': ['searchHome', 'searchAdvanced'],
-      'Search': ['searchRealtime', 'formSearchResults', 'searchLinks', 'formSearchLinks', 'placeTweetSearch', 'searchResults'],
+      'Search': ['searchRealtime', 'formSearchResults', 'searchLinks', 'formSearchLinks', 'placeTweetSearch', 'searchResults', 'searchTimeline'],
       'WhoToFollow': ['userSearch', 'userSearchForm', 'whoToFollow', 'whoToFollowSearch', 'whoToFollowSearchForm', 'whoToFollowInterests', 'whoToFollowInterestsCategory', 'whoToFollowSuggestions', 'whoToFollowImport', 'whoToFollowImportMatches'],
       'Messages': ['messages', 'inbox', 'sent'],
       'Profile': ['createDm', 'userActivity', 'favorites', 'friends', 'lists', 'profile', 'userFavorites', 'userLists', 'memberships', 'subscriptions', 'followerRequests'],
@@ -103,6 +103,7 @@ var TweetfilterScript = function() {
       "whoToFollowSuggestions": "UserRecommendationsStream",
       "searchResults": "Search",
       "searchRealtime": "Search",
+      "searchTimeline": "Search",
       "searchLinks": "Search"
     };
     this._streammap = {}; //stream namespace => stream itemtype

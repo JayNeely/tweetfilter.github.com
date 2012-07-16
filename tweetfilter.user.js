@@ -58,7 +58,7 @@ var TweetfilterScript = function() {
       'Search': ['searchRealtime', 'formSearchResults', 'searchLinks', 'formSearchLinks', 'placeTweetSearch', 'searchResults', 'searchTimeline'],
       'WhoToFollow': ['userSearch', 'userSearchForm', 'whoToFollow', 'whoToFollowSearch', 'whoToFollowSearchForm', 'whoToFollowInterests', 'whoToFollowInterestsCategory', 'whoToFollowSuggestions', 'whoToFollowImport', 'whoToFollowImportMatches'],
       'Messages': ['messages', 'inbox', 'sent'],
-      'Profile': ['createDm', 'userActivity', 'favorites', 'friends', 'lists', 'profile', 'userFavorites', 'userLists', 'memberships', 'subscriptions', 'followerRequests'],
+      'Profile': ['createDm', 'userActivity', 'favorites', 'friends', 'lists', 'profile', 'userFavorites', 'userLists', 'memberships', 'subscriptions', 'followerRequests', ''],
       'Followers': ['followers', 'followersYouFollow', 'userFollowers'],
       'Following': ['following', 'followingTweets', 'userFollowing', 'youBothFollow', 'userFollowingTweets'],
       'SimilarTo': ['similarTo'],
@@ -104,7 +104,8 @@ var TweetfilterScript = function() {
       "searchResults": "Search",
       "searchRealtime": "Search",
       "searchTimeline": "Search",
-      "searchLinks": "Search"
+      "searchLinks": "Search",
+      "": "User"
     };
     this._streammap = {}; //stream namespace => stream itemtype
     this._pagemap = {}; //route name => page name
